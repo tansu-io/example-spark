@@ -5,7 +5,7 @@ Prerequisites:
 - **[docker](https://www.docker.com)**, using [compose.yaml](compose.yaml) running [Tansu](https://tansu.io), [Apache Spark](https://spark.apache.org), [MinIO](https://min.io) and an [Apache Iceberg REST Catalog](https://iceberg.apache.org/terms/#decoupling-using-the-rest-catalog)
 - **[just](https://github.com/casey/just)**, a handy way to save and run project-specific commands
 
-[justfile](./justfile) contains recipes to run [MinIO](https://min.io), create the buckets, an Apache Iceberg REST catalog and [Apache Spark](https://spark.apache.org) with [Tansu](https://tansu.io).
+The [justfile](./justfile) contains recipes to run [MinIO](https://min.io), create the buckets, an Apache Iceberg REST catalog and [Apache Spark](https://spark.apache.org) with [Tansu](https://tansu.io).
 
 Once you have the prerequisites installed, clone this repository and start everything up with:
 
